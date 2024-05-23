@@ -1,0 +1,28 @@
+{
+  "produtos": [
+    {
+      "nome": "Naruto Classico",
+      "preco": "35",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF2swGSR0ucQqmvlZ1_mlljnS9ULDE7V7ZY0_4_ayPgQ&s",
+      "id": 2
+    },
+    {
+      "nome": "Naruto Shippuden",
+      "preco": "35",
+      "imagem": "https://www.nerdbemtrajado.com.br/cdn/shop/files/S93fc88a22e574b548e47f3c6506057e79.jpg?v=1693590235&width=1445",
+      "id": 1
+    },
+    {
+      "nome": "Itachi Uchiha",
+      "preco": "55",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIslzeIDX78zMgsbluM2txRX8Bh4yp8_JY492vpEVOfJmMMOeO3kH3jS7witBguw4vrio&usqp=CAU",
+      "id": 3
+    },
+    {
+      "nome": "Kakashi e Naruto",
+      "preco": "69",
+      "imagem": "https://down-br.img.susercontent.com/file/sg-11134201-7rcc0-lssh2jhzk9gecb",
+      "id": 4
+    }
+  ]
+}

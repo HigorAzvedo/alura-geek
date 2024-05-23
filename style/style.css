@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #5300C8;
+    padding:20px 0px 20px 0px;
+}
+
+.container-principal{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 70px;
+    /* width: 100%;
+    height: 525px; */
+    padding: 60px 40px 60px 40px;
+}
+
+.produtos{
+   max-width: 678px;
+   
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   /* border: 1px solid black; */
+   align-items: center;
+}
+
+h2{
+    font-family: "Press Start 2P", system-ui;
+    padding: 20px;
+}
+
+.container-produtos{
+   height: 546px;
+   overflow: scroll;
+   display: flex;
+   gap: 10px;
+   flex-wrap: wrap;
+   width: 100%;
+}
+
+.card{
+    background-color: #5300C8;
+    color: #fff;
+    border-radius: 10px;
+    /* border: 3px solid black; */
+    padding: 10px;
+    width: 196px;
+    height: 258px;
+}
+
+.img{
+    width: 100%;
+    border: 4px solid black;
+}
+
+.card-container-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 11px;
+}
+
+.card-container-value{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: 176px;
+    height: 24px;
+    gap: 10px;
+}
+
+.icon-trash{
+    background-color: #5300C8;
+}
+
+.delete-button{
+    background-color: #5300C8;
+    border: none;
+    line-height: 0px;
+    cursor: pointer;
+}
+
+.container-secundario{
+    width: auto;
+    height: 517px;
+    text-align: center;
+    
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+input[type="text"]{
+    width: 352px;
+    height: 58px;
+    padding: 10px;
+    border-radius: 40px;
+    border-color: #5300C8;
+}
+
+::-webkit-input-placeholder {
+    color: #5300C8;
+    font: 12px verdana, arial, sans-serif;
+}
+
+.button-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#button{
+    width: 158px;
+    height: 55px;
+    border-radius: 15px;
+    font-weight: 400;
+    font-family: "Press Start 2P", system-ui;
+    cursor: pointer;
+    /* border: 2px solid #5300C8; */
+}
+
+.button-submit{
+    background-color: #5300C8;
+    color: #fff;
+}
+
+.button-clear{
+    color: #5300C8;
+    background-color: #fff;
+    border-color: #5300C8;
+}
+
+footer{
+    background-color: #5300C8;
+    display: flex;
+    justify-content: center;
+    font-family: "IBM Plex Mono", monospace;
+    padding: 40px;
+    color: #fff;
+}
+
+footer > p{
+    line-height: 46px;
+    text-align: center;
+}
+
+.footer-descricao{
+    text-align: center;
+}
+
+/* @media only screen and (max-width: 941px){
+    .container-principal{
+        flex-direction: column;
+    }
+
+    .produtos{
+        width: auto;
+    }
+} */
+
+@media only screen and (max-width: 941px){
+    .container-principal{
+        flex-direction: column-reverse;
+        gap: 0px;
+        align-items: center;
+    }
+
+    .produtos{
+        width: auto;
+    }
+
+}
+
+@media only screen and (max-width: 941px){
+    .container-principal{
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+
+    .container1{
+        flex-wrap: wrap;
+    }
+
+    .produtos{
+        width: auto;
+    }
+}
+

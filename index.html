@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+    <title>Alura-Geek</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="./imagens/logo-alura.png" alt="logo-alura-geek">
+    </header>
+
+    <main class="container-principal">
+
+        <section class="produtos">
+            <h2>Meus Produtos:</h2>
+            <div data-product class="container-produtos">
+                <!-- <div class="img-container">
+                        <img src="${imagem}" alt="logo produto">
+                    </div>
+                    <div class="card-container-info">
+                        <p>${nome}</p>
+                        <div class="card-container-value">
+                            <p>R$ ${preco}</p>
+                            <button class="delete-button" data-id="${id}">
+                                <img class="icon-trash" src="./imagens/icon-trash.png" alt="icone de lixeira">
+                            </button>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <section class="container-secundario">
+            <h2>Adicionando Produtos</h2>
+            <form class="form-container " data-form>
+                <input required data-nome placeholder="nome" type="text">
+                <input required data-preco placeholder="preço" type="text">
+                <input required data-imagem placeholder="imagem" type="text"> 
+                <div class="button-container">
+                    <button class="button-submit" id="button" type="submit">Enviar</button>
+                    <button class="button-clear" id="button" type="reset">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <img src="imagens/logo-alura.png" alt="logo-footer">
+            <div class="footer-descricao">
+                <p>DESENVOLVIDO POR HIGOR AZEVEDO</p>
+                <p>ALURA LATAM - 2024</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/mostrarProdutos.js" type="module"></script>
+    <script src="./js/criarProduto.js" type="module" ></script>
+    <script src="./js/apagarProduto.js" type="module"></script>
+</body>
+
+</html>
